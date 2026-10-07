@@ -1,0 +1,9 @@
+
+@urlBase = {{$dotenv BASE_URL_REVALIDATE}}
+@payloadItem = careers-application
+@apiKey = {{$dotenv API_TOKEN}}
+@url = {{urlBase}}?secret=test
+
+### POST
+GET {{url}}
+Content-Type: application/json

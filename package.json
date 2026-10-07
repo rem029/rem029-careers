@@ -1,0 +1,32 @@
+{
+  "name": "careers-do",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "install:deps": "bash install_deps.sh",
+    "build:backend": "yarn --cwd apps/backend build",
+    "build:frontend": "yarn --cwd apps/frontend build",
+    "dev:backend": "yarn --cwd apps/backend dev",
+    "dev:frontend": "yarn --cwd apps/frontend dev",
+    "dev": "concurrently -n backend-emp,backend,frontend \"yarn dev:backend\" \"yarn dev:frontend\"",
+    "migrate:latest": "yarn -cwd apps/backend migrate:latest",
+    "migrate:revert": "yarn -cwd apps/backend migrate:latest",
+    "push:production": "bash scripts/common/git-push-production.sh",
+    "push:production:win": "git checkout production && git pull origin dev && git push origin production && git checkout dev",
+    "start:backend": "yarn --cwd apps/backend start",
+    "start:frontend": "yarn --cwd apps/frontend start",
+    "start:pm2:backend": "yarn --cwd apps/backend start:pm2",
+    "start:pm2:frontend": "yarn --cwd apps/frontend start:pm2",
+    "restart:pm2:backend": "yarn --cwd apps/backend restart:pm2",
+    "restart:pm2:frontend": "yarn --cwd apps/frontend restart:pm2",
+    "start:production": "bash scripts/common/init-app.sh production careers-do"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

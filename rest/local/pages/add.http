@@ -1,0 +1,137 @@
+
+@urlBase = {{$dotenv BASE_URL}}
+@payloadItem = pages
+@apiKey = {{$dotenv API_TOKEN}}
+@url = {{urlBase}}/{{payloadItem}}
+
+### POST
+POST {{url}}
+Content-Type: application/json
+Authorization: users API-Key {{apiKey}}
+
+{
+  "title": "Careers homepage",
+  "description": "Hello world done this shit mate!",
+  "slug": "careers-home",
+  "is_homepage": true,
+  "has_featured_image": null,
+  "layout": [
+    {
+      "title": "hero section",
+      "sub_title": [{ "children": [{ "text": "" }] }],
+      "blockName": "Hero",
+      "blockType": "block-hero",
+      "block": [
+        {
+          "id": "66e03e717ab6e2e16a0ba140",
+          "blockName": null,
+          "items": [
+          ],
+          "blockType": "block-image-carousel"
+        }
+      ]
+    },
+    {
+      "id": "66e055aa7ea7a135df62b5a4",
+      "title": "Be part of our amazing team",
+      "background": "secondary",
+      "show_sub_title": true,
+      "sub_title": [
+        {
+          "children": [
+            {
+              "text": "sub sentence to be written here. sub sentence to be written here. sub sentence to be written here. "
+            }
+          ],
+          "textAlign": "center"
+        }
+      ],
+      "has_cta_button": null,
+      "blockName": "Be part of our amazing team",
+      "blockType": "block-section",
+      "cta_info": { "title": null, "link": null, "variant": null },
+      "block": []
+    },
+    {
+      "id": "66e0596443637a795179548f",
+      "title": "Explore the possibilities",
+      "background": "primary",
+      "show_sub_title": null,
+      "sub_title": null,
+      "has_cta_button": null,
+      "blockName": "Explore the possibilities",
+      "blockType": "block-section",
+      "block": [
+        {
+          "id": "66e0597143637a7951795490",
+          "show_search": true,
+          "show_job_count": true,
+          "blockName": null,
+          "blockType": "block-categories"
+        }
+      ],
+      "cta_info": { "title": null, "link": null, "variant": null }
+    },
+    {
+      "id": "66e2b185c9705c7d115c4293",
+      "title": "Who we are",
+      "background": "primary",
+      "show_sub_title": false,
+      "sub_title": [{ "children": [{ "text": "asda" }] }],
+      "has_cta_button": null,
+      "blockName": "Who we are",
+      "blockType": "block-section",
+      "block": [
+        {
+          "id": "66e2cc27b93651751377a3a4",
+          "collection": "pages",
+          "collection_select_all": false,
+          "blockName": "Collection feature - Pages",
+          "blockType": "block-collections",
+          "collection_pages": [],
+          "collection_categories": []
+        }
+      ],
+      "cta_info": { "title": null, "link": null, "variant": null }
+    },
+    {
+      "id": "66e2e0f752abcaf9f737aa18",
+      "title": "Ready to apply?",
+      "background": "secondary",
+      "show_sub_title": true,
+      "sub_title": [
+        {
+          "children": [
+            {
+              "text": "Sub sentence to be written as usual maatteee!!! Sub sentence to be written as usual maatteee!!! Sub sentence to be written as usual maatteee!!!"
+            }
+          ],
+          "textAlign": "center"
+        },
+        { "children": [{ "text": "" }], "textAlign": "center" },
+        {
+          "children": [
+            { "text": "" },
+            {
+              "url": "/jobs",
+              "type": "link",
+              "children": [{ "text": "View all vacant positions." }],
+              "linkType": "custom"
+            },
+            { "text": "" }
+          ],
+          "textAlign": "center"
+        }
+      ],
+      "has_cta_button": null,
+      "blockName": "Ready to apply?",
+      "blockType": "block-section",
+      "cta_info": { "title": null, "link": null, "variant": null },
+      "block": []
+    }
+  ],
+  "seo": { "metaTitle": null, "metaDescription": null },
+  "updatedAt": "2024-09-12T13:23:34.775Z",
+  "createdAt": "2024-09-12T13:22:28.423Z",
+  "_status": "published"
+}

@@ -1,0 +1,9 @@
+build
+dist
+
+src/media
+src/media-internal
+src/careers-media
+node_modules
+.DS_Store
+.env

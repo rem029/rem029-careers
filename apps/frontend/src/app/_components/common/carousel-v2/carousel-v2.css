@@ -1,0 +1,76 @@
+/* Container for the carousel */
+.swiper-container__carouselv2 {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Styling for each slide */
+  .swiper-slide__carouselv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the carousel card */
+  .card__carousel {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    height: 536px;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Ensure images and videos cover the card area */
+  .card__carousel img,
+  .card__carousel video {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+  
+  /* Divider style */
+  .card_divider {
+    height: 16px;
+    width: 100%;
+  }
+  
+  /* Content styling */
+  .card_content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+  }
+  
+  .card_content h3 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #143422;
+  }
+  
+  .card_content p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #696969;
+    flex: 1;
+  }
+  
+  .btn-primary {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #143422;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,249 @@
+{
+  "id": 1,
+  "title": "Careers homepage",
+  "description": "Hello world done this shit mate!",
+  "slug": "home",
+  "is_homepage": true,
+  "has_featured_image": null,
+  "layout": [
+    {
+      "id": "66d6aea6961edecf5a51497e",
+      "title": "hero section",
+      "sub_title": [{ "children": [{ "text": "" }] }],
+      "blockName": "Hero",
+      "blockType": "block-hero",
+      "block": [
+        {
+          "id": "66e03e717ab6e2e16a0ba140",
+          "blockName": null,
+          "items": [
+            {
+              "id": "66e03e737ab6e2e16a0ba141",
+              "action_title": null,
+              "action_description": null,
+              "action_url": null,
+              "image": {
+                "id": 2,
+                "alt": null,
+                "updatedAt": "2024-09-10T12:43:14.958Z",
+                "createdAt": "2024-09-10T12:43:14.958Z",
+                "url": "http://localhost:3005/payload/media//cafe 1.png",
+                "filename": "cafe 1.png",
+                "mimeType": "image/png",
+                "filesize": 2136060,
+                "width": 1249,
+                "height": 999,
+                "focalX": 50,
+                "focalY": 50
+              }
+            },
+            {
+              "id": "66e043697ab6e2e16a0ba142",
+              "action_title": "Ready ",
+              "action_description": "Get set GO!",
+              "action_url": "https://swiperjs.com/react",
+              "image": {
+                "id": 3,
+                "alt": null,
+                "updatedAt": "2024-09-10T13:02:41.926Z",
+                "createdAt": "2024-09-10T13:02:41.926Z",
+                "url": "http://localhost:3005/payload/media//coaches_1136x840.png",
+                "filename": "coaches_1136x840.png",
+                "mimeType": "image/png",
+                "filesize": 1782619,
+                "width": 1136,
+                "height": 840,
+                "focalX": 50,
+                "focalY": 50
+              }
+            }
+          ],
+          "blockType": "block-image-carousel"
+        }
+      ]
+    },
+    {
+      "id": "66e055aa7ea7a135df62b5a4",
+      "title": "Be part of our amazing team",
+      "background": "secondary",
+      "show_sub_title": true,
+      "sub_title": [
+        {
+          "children": [
+            {
+              "text": "sub sentence to be written here. sub sentence to be written here. sub sentence to be written here. "
+            }
+          ],
+          "textAlign": "center"
+        }
+      ],
+      "has_cta_button": null,
+      "blockName": "Be part of our amazing team",
+      "blockType": "block-section",
+      "cta_info": { "title": null, "link": null, "variant": null },
+      "block": []
+    },
+    {
+      "id": "66e0596443637a795179548f",
+      "title": "Explore the possibilities",
+      "background": "primary",
+      "show_sub_title": null,
+      "sub_title": null,
+      "has_cta_button": null,
+      "blockName": "Explore the possibilities",
+      "blockType": "block-section",
+      "block": [
+        {
+          "id": "66e0597143637a7951795490",
+          "show_search": true,
+          "show_job_count": true,
+          "blockName": null,
+          "blockType": "block-categories"
+        }
+      ],
+      "cta_info": { "title": null, "link": null, "variant": null }
+    },
+    {
+      "id": "66e2b185c9705c7d115c4293",
+      "title": "Who we are",
+      "background": "primary",
+      "show_sub_title": false,
+      "sub_title": [{ "children": [{ "text": "asda" }] }],
+      "has_cta_button": null,
+      "blockName": "Who we are",
+      "blockType": "block-section",
+      "block": [
+        {
+          "id": "66e2cc27b93651751377a3a4",
+          "collection": "pages",
+          "collection_select_all": false,
+          "blockName": "Collection feature - Pages",
+          "blockType": "block-collections",
+          "collection_pages": [
+            {
+              "id": 3,
+              "title": "Our culture",
+              "description": "Super long sentence well maybe not that long. Maybe 1, 1 million will be enough. Super long sentence well maybe not that long. Maybe 1, 1 million will be enough. \n\nSuper long sentence well maybe not that long.",
+              "slug": "our-culture",
+              "is_homepage": false,
+              "has_featured_image": true,
+              "featured_image": {
+                "id": 5,
+                "alt": null,
+                "updatedAt": "2024-09-12T11:27:09.877Z",
+                "createdAt": "2024-09-12T11:27:09.877Z",
+                "url": "http://localhost:3005/payload/media//ref_resolution_768x576.jpg",
+                "filename": "ref_resolution_768x576.jpg",
+                "mimeType": "image/jpeg",
+                "filesize": 60180,
+                "width": 768,
+                "height": 576,
+                "focalX": 50,
+                "focalY": 50
+              },
+              "layout": [
+                {
+                  "id": "66e284308a8f79a5dab8c02d",
+                  "title": "Our culture page",
+                  "background": null,
+                  "show_sub_title": null,
+                  "sub_title": null,
+                  "has_cta_button": null,
+                  "blockName": null,
+                  "blockType": "block-section",
+                  "cta_info": { "title": null, "link": null, "variant": null },
+                  "block": []
+                }
+              ],
+              "seo": { "metaTitle": null, "metaDescription": null },
+              "updatedAt": "2024-09-12T12:51:40.029Z",
+              "createdAt": "2024-09-03T12:03:59.663Z",
+              "_status": "published"
+            },
+            {
+              "id": 2,
+              "title": "Meet our team",
+              "description": "Super long sentence well maybe not that long. Maybe 1, 1 million will be enough. Super long sentence well maybe not that long. Maybe 1, 1 million will be enough. \n\nSuper long sentence well maybe not that long.",
+              "slug": "our-team",
+              "is_homepage": false,
+              "has_featured_image": true,
+              "featured_image": {
+                "id": 6,
+                "alt": null,
+                "updatedAt": "2024-09-12T11:27:25.179Z",
+                "createdAt": "2024-09-12T11:27:25.179Z",
+                "url": "http://localhost:3005/payload/media//App Arabic.jpg",
+                "filename": "App Arabic.jpg",
+                "mimeType": "image/jpeg",
+                "filesize": 135933,
+                "width": 600,
+                "height": 900,
+                "focalX": 50,
+                "focalY": 50
+              },
+              "layout": [
+                {
+                  "id": "66d6fb1ebfdd541877901052",
+                  "title": null,
+                  "background": null,
+                  "show_sub_title": null,
+                  "sub_title": null,
+                  "has_cta_button": null,
+                  "blockName": null,
+                  "blockType": "block-section",
+                  "cta_info": { "title": null, "link": null, "variant": null },
+                  "block": []
+                }
+              ],
+              "seo": { "metaTitle": null, "metaDescription": null },
+              "updatedAt": "2024-09-12T12:51:35.797Z",
+              "createdAt": "2024-09-03T12:03:42.570Z",
+              "_status": "published"
+            }
+          ],
+          "collection_categories": []
+        }
+      ],
+      "cta_info": { "title": null, "link": null, "variant": null }
+    },
+    {
+      "id": "66e2e0f752abcaf9f737aa18",
+      "title": "Ready to apply?",
+      "background": "secondary",
+      "show_sub_title": true,
+      "sub_title": [
+        {
+          "children": [
+            {
+              "text": "Sub sentence to be written as usual maatteee!!! Sub sentence to be written as usual maatteee!!! Sub sentence to be written as usual maatteee!!!"
+            }
+          ],
+          "textAlign": "center"
+        },
+        { "children": [{ "text": "" }], "textAlign": "center" },
+        {
+          "children": [
+            { "text": "" },
+            {
+              "url": "/jobs",
+              "type": "link",
+              "children": [{ "text": "View all vacant positions." }],
+              "linkType": "custom"
+            },
+            { "text": "" }
+          ],
+          "textAlign": "center"
+        }
+      ],
+      "has_cta_button": null,
+      "blockName": "Ready to apply?",
+      "blockType": "block-section",
+      "cta_info": { "title": null, "link": null, "variant": null },
+      "block": []
+    }
+  ],
+  "seo": { "metaTitle": null, "metaDescription": null },
+  "updatedAt": "2024-09-12T13:23:34.775Z",
+  "createdAt": "2024-09-12T13:22:28.423Z",
+  "_status": "published"
+}

@@ -1,0 +1,363 @@
+
+@urlBase = {{$dotenv BASE_URL}}
+@payloadItem = careers
+@apiKey = {{$dotenv API_TOKEN}}
+@url = {{urlBase}}/{{payloadItem}}
+
+
+### FETCH
+GET {{url}}
+Content-Type: application/json
+Authorization: users API-Key {{apiKey}}
+
+###POST1
+POST {{url}}
+Content-Type: application/json
+Authorization: users API-Key {{apiKey}}
+
+{
+    "title": "Marketing Coordinator",
+    "description": "Assist in the development and execution of marketing strategies to promote our brand and products.",
+    "category": 2,
+    "work_type": 1,
+    "responsibilities": [
+        {
+            "title": "Coordinate marketing campaigns",
+            "sub_title": "Across multiple channels"
+        },
+        {
+            "title": "Monitor campaign performance",
+            "sub_title": null
+        },
+        {
+            "title": "Collaborate with creative team",
+            "sub_title": "To develop content"
+        }
+    ],
+    "qualifications": [
+        {
+            "title": "Bachelor's degree in Marketing",
+            "sub_title": null
+        },
+        {
+            "title": "1-2 years of experience in marketing",
+            "sub_title": null
+        }
+    ],
+    "questions": [
+        {
+            "careers_questions": 1
+        },
+        {
+            "careers_questions": 2
+        }
+    ]
+}
+
+###POST2
+POST {{url}}
+Content-Type: application/json
+Authorization: users API-Key {{apiKey}}
+
+{
+    "title": "Software Developer",
+    "description": "Develop and maintain web applications with a focus on user experience and performance.",
+    "category": 1,
+    "work_type": 2,
+    "responsibilities": [
+        {
+            "title": "Write clean and efficient code",
+            "sub_title": "Using modern development practices"
+        },
+        {
+            "title": "Debug and troubleshoot issues",
+            "sub_title": null
+        },
+        {
+            "title": "Collaborate with product managers",
+            "sub_title": "To define project requirements"
+        }
+    ],
+    "qualifications": [
+        {
+            "title": "Bachelor's degree in Computer Science",
+            "sub_title": null
+        },
+        {
+            "title": "2-3 years of experience in software development",
+            "sub_title": null
+        }
+    ],
+    "questions": [
+        {
+            "careers_questions": 1
+        },
+        {
+            "careers_questions": 3
+        }
+    ]
+}
+
+###POST3
+POST {{url}}
+Content-Type: application/json
+Authorization: users API-Key {{apiKey}}
+
+{
+    "title": "Graphic Designer Unpublished",
+    "description": "Design visuals and graphics for various marketing campaigns.",
+    "category": 3,
+    "work_type": 1,
+    "responsibilities": [
+        {
+            "title": "Create visual content",
+            "sub_title": "For digital and print media"
+        },
+        {
+            "title": "Develop brand guidelines",
+            "sub_title": null
+        },
+        {
+            "title": "Work with marketing teams",
+            "sub_title": "To implement visual strategies"
+        }
+    ],
+    "qualifications": [
+        {
+            "title": "Bachelor's degree in Design",
+            "sub_title": null
+        },
+        {
+            "title": "Proficiency in Adobe Creative Suite",
+            "sub_title": null
+        }
+    ],
+    "questions": [
+        {
+            "careers_questions": 2
+        },
+        {
+            "careers_questions": 3
+        }
+    ]
+}
+
+###POST4
+POST {{url}}
+Content-Type: application/json
+Authorization: users API-Key {{apiKey}}
+
+{
+    "title": "Sales Executive",
+    "description": "Engage with potential clients and close sales opportunities.",
+    "category": 2,
+    "work_type": 3,
+    "responsibilities": [
+        {
+            "title": "Identify sales opportunities",
+            "sub_title": "In various industries"
+        },
+        {
+            "title": "Meet sales targets",
+            "sub_title": null
+        },
+        {
+            "title": "Prepare presentations",
+            "sub_title": "To showcase services"
+        }
+    ],
+    "qualifications": [
+        {
+            "title": "Bachelor's degree in Business",
+            "sub_title": null
+        },
+        {
+            "title": "3-4 years of sales experience",
+            "sub_title": null
+        }
+    ],
+    "questions": [
+        {
+            "careers_questions": 1
+        },
+        {
+            "careers_questions": 2
+        }
+    ]
+}
+
+###POST5
+POST {{url}}
+Content-Type: application/json
+Authorization: users API-Key {{apiKey}}
+
+{
+    "title": "Project Manager",
+    "description": "Manage and oversee project deliverables across teams.",
+    "category": 1,
+    "work_type": 3,
+    "responsibilities": [
+        {
+            "title": "Oversee project timelines",
+            "sub_title": "From start to completion"
+        },
+        {
+            "title": "Manage project teams",
+            "sub_title": null
+        },
+        {
+            "title": "Provide project reports",
+            "sub_title": "To stakeholders"
+        }
+    ],
+    "qualifications": [
+        {
+            "title": "PMP certification",
+            "sub_title": null
+        },
+        {
+            "title": "5 years of experience in project management",
+            "sub_title": null
+        }
+    ],
+    "questions": [
+        {
+            "careers_questions": 2
+        },
+        {
+            "careers_questions": 3
+        }
+    ]
+}
+
+###POST6
+POST {{url}}
+Content-Type: application/json
+Authorization: users API-Key {{apiKey}}
+
+{
+    "title": "Content Writer",
+    "description": "Create high-quality content for various digital platforms.",
+    "category": 3,
+    "work_type": 2,
+    "responsibilities": [
+        {
+            "title": "Write blogs and articles",
+            "sub_title": "For the company website"
+        },
+        {
+            "title": "Edit and proofread content",
+            "sub_title": null
+        },
+        {
+            "title": "Collaborate with marketing",
+            "sub_title": "To create engaging content"
+        }
+    ],
+    "qualifications": [
+        {
+            "title": "Bachelor's degree in English or Journalism",
+            "sub_title": null
+        },
+        {
+            "title": "1-2 years of writing experience",
+            "sub_title": null
+        }
+    ],
+    "questions": [
+        {
+            "careers_questions": 1
+        },
+        {
+            "careers_questions": 3
+        }
+    ]
+}
+
+###POST7
+POST {{url}}
+Content-Type: application/json
+Authorization: users API-Key {{apiKey}}
+
+{
+    "title": "Customer Service Representative",
+    "description": "Provide excellent customer support and resolve queries effectively.",
+    "category": 2,
+    "work_type": 1,
+    "responsibilities": [
+        {
+            "title": "Respond to customer queries",
+            "sub_title": "Via phone and email"
+        },
+        {
+            "title": "Manage customer accounts",
+            "sub_title": null
+        },
+        {
+            "title": "Provide feedback",
+            "sub_title": "To the product team"
+        }
+    ],
+    "qualifications": [
+        {
+            "title": "High school diploma",
+            "sub_title": null
+        },
+        {
+            "title": "Experience in customer service",
+            "sub_title": null
+        }
+    ],
+    "questions": [
+        {
+            "careers_questions": 2
+        },
+        {
+            "careers_questions": 3
+        }
+    ]
+}
+
+###POST8
+POST {{url}}
+Content-Type: application/json
+Authorization: users API-Key {{apiKey}}
+
+{
+    "title": "Data Analyst",
+    "description": "Analyze and interpret data to inform business decisions.",
+    "category": 1,
+    "work_type": 3,
+    "responsibilities": [
+        {
+            "title": "Collect and analyze data",
+            "sub_title": "From various sources"
+        },
+        {
+            "title": "Generate reports",
+            "sub_title": null
+        },
+        {
+            "title": "Work with teams",
+            "sub_title": "To improve processes"
+        }
+    ],
+    "qualifications": [
+        {
+            "title": "Bachelor's degree in Statistics",
+            "sub_title": null
+        },
+        {
+            "title": "Experience with data analysis tools",
+            "sub_title": null
+        }
+    ],
+    "questions": [
+        {
+            "careers_questions": 1
+        },
+        {
+            "careers_questions": 2
+        }
+    ]
+}

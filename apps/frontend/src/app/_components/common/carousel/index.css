@@ -1,0 +1,9 @@
+.swiper-pagination-bullet {
+  @apply bg-accent;
+  @apply shadow-lg;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-secondary;
+  @apply shadow-lg;
+}
